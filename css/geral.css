@@ -1,0 +1,280 @@
+il {
+    width: 100%;
+    display: block;
+    font-size: 15px;
+    font-style: initial;
+    color: white;
+}
+
+.texto-menu:hover {
+    color: #9fa8da;
+}
+
+body { 
+    margin:0;
+    padding: 0;
+    background-color: #eeeeee;
+}
+
+ul {
+    padding: 0;
+}
+
+.texto-menu {
+    text-decoration: none !important;
+    color: white;
+}
+
+.itemMenu {
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.cabecalho {
+    box-shadow: 0px 0px 8px black;    
+    width:100%; 
+    height: 60px; 
+    background-color: #0271c5;
+    z-index: 2;
+    position: fixed;
+}
+
+.menuEsquerda {
+    min-width: 15%; 
+    height: 100%; 
+    background-color: #454343; 
+    float:left;
+    box-shadow: 0px 0px 8px #2F4F4F;    
+    z-index: 1;
+    position: fixed;
+    margin-top: 60px;
+}
+
+.conteudo {
+    background-color: #eeeeee; 
+    width: 85%; 
+    height: 100%; 
+    float: left;
+    position: relative;
+    margin-top: 60px;
+    margin-left: 15%;
+}
+
+.indicador {
+    background-color: #226786;
+    min-width: 23%;
+    min-height: 13%;
+    margin-left: 20px;
+    margin-top: 20px;
+
+    float: left;
+    border-radius: 5px;
+}
+
+.indicador-conteudo {
+    margin: 20px 15px 15px 15px;
+
+}
+
+.titulo-indicador {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 20px;
+    color: white;
+    font-style: initial;
+}
+
+.texto-indicador {
+    margin-top: -5px;
+    margin-bottom: 0px;
+    font-size: 20px;
+    color: white;
+    font-style: initial;
+
+}
+
+.grafico-container {
+    margin: 50px 5px 20px 20px;
+    background-color: white; 
+    float:left; 
+    width: 97%;
+    height: 450px;        
+    box-shadow: 0px 0px 6px graytext; 
+    border-radius: 5px;
+}
+
+.grafico-titlo {
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.quadro-formulario {
+    background-color: white;
+    margin: 30px 30px 30px 30px;
+    box-shadow: 0px 0px 8px grey;
+    border-radius: 5px;
+    padding-bottom: 50px;
+    height: 1000px;
+}
+
+.header-formulario {
+    vertical-align: center;
+    background-color: #226786;
+    height:40px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.body-formulario {
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.custom-file-upload {
+    border: 1px solid #ccc;
+    display: inline-block;
+    padding: 6px 12px;
+    cursor: pointer;
+}
+
+h2, h4, h3, h1, h5, h6 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.linha {
+    float: left;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+label {
+    font-size: 14px;
+    font-style: initial;
+}
+
+.submit {
+    border: 1px solid #ccc;
+    display: inline-block;
+    background-color: #4682B4;
+    color: white;
+    width: 150px;
+    height: 35px;
+    font-size: 14px;
+    border-radius: 5px;
+}
+
+.botao {
+    border: 1px solid #ccc;
+    display: inline-block;
+    background-color: #4682B4;
+    color: white;
+    height: 35px;
+    font-size: 14px;
+    border-radius: 5px;
+    
+}
+
+.botao-danger {
+    border: 1px solid #ccc;
+    display: inline-block;
+    background-color: red;
+    color: white;
+    height: 35px;
+    font-size: 14px;
+    border-radius: 5px;
+    
+}
+
+.coluna-form {
+    float:left; 
+    width:20%;
+    margin-left: 20px;
+}
+
+.coluna-form-sm {
+    float:left; 
+    width:10%;
+    margin-left: 15px;
+}
+
+.submit:hover {
+    color: black;
+}
+
+select {
+    height: 30px;        
+    border-radius: 5px;
+    padding:5px;
+}
+
+.filtro-body {
+    padding-left: 20px;
+}
+
+input {
+    height: 25px;
+    border-radius: 5px;
+    padding-left: 5px;
+}
+
+.col-sm {
+    width: 22%;
+}
+
+.col-md {
+    width: 45%;
+}
+
+.col-lg {
+    width: 70%;
+}
+
+.form-element {
+    width: 100%;
+    margin-top: 5px;
+}
+
+.modalDialog {
+    position: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0,0,0,0.8);
+    z-index: 99999;
+    opacity:1;
+    -webkit-transition: opacity 400ms ease-in;
+    -moz-transition: opacity 400ms ease-in;
+    transition: opacity 400ms ease-in;
+    pointer-events: auto;
+}
+.modalDialog:target {
+        opacity:1;
+        pointer-events: auto;
+}
+
+.modalDialog > div {
+        width: 40%;
+        height: 55%;
+        position: relative;
+        margin: 10% auto;
+        border-radius: 5px;
+        background-color: white;
+}
+
+.corpo-modal {
+    margin-right: 20px;
+    border-bottom: 2px solid #c7c3c3;
+}
+
+.fa-white {
+    color: white;
+}
+.fa-blue {
+    color: white;
+}
